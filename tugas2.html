@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <form action="tugas2.php" method="post">
+            NIM  : <input type="text" name="nim"><br><br>
+            Nama : <input type="text" name="nama"><br><br>
+            Jenis Kelamin :      <br>
+                <input type='radio' name='kelamin' value='Laki-Laki'>L<br>
+                <input type='radio' name='kelamin' value='Perempuan'>P <br>
+
+            Alamat      :<br>
+            <textarea name='alamat' rows="2" cols="50"></textarea><br>
+            Program Studi :
+                <select name = "prodi">           
+                    <option value='FISIKA'> FISIKA
+                    <option value='BIOLOGI'> BIOLOGI
+                    <option value='SISTEM INFORMASI'> SISTEM INFORMASI
+                    <option value='KIMIA'> KIMIA
+                </select>
+            <br>
+            Bahasa Pemrograman Yang dikuasai: <br>
+            <INPUT TYPE=CHECKBOX NAME="cek[]" VALUE="PASCAL/DELPHI"> PASCAL/DELPHI <BR>
+            <INPUT TYPE=CHECKBOX NAME="cek[]" VALUE="C/C++"> C/C++ <BR>
+            <INPUT TYPE=CHECKBOX NAME="cek[]" VALUE="VISUAL BASIC"> Visual Basic <BR>
+            <input type="submit" value="kirim">
+        </form>
+    </body>
+</html>
